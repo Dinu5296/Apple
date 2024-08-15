@@ -1,5 +1,5 @@
-resource "aws_s3_bucket" "example_bucket" {
-  bucket = "my-example-bucket"
+resource "aws_s3_bucket" "example_bucket2" {
+  bucket = "my-example-bucket456"
   acl    = "private"
  
   versioning {
