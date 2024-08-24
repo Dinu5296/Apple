@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', credentialsId: 'b9604eb1-af53-44d3-8379-65193f210836',url: 'https://github.com/Dinu5296/Apple.git'
+                git branch: 'master', credentialsId: 'cd7cef1b-12bc-43d1-a9fb-49e8ada2bf72',url: 'https://github.com/Dinu5296/Apple.git'
             }
         }
  
