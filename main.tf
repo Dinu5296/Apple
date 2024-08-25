@@ -1,6 +1,5 @@
-resource "aws_s3_bucket" "example_bucket2" {
-  bucket = "my-example-bucket469"
-  acl    = "private"
+resource "aws_s3_bucket" "example_bucket89" {
+  bucket = "my-example-bucket489"
  
   versioning {
     enabled = true
